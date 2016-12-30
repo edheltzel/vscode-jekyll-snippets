@@ -1,0 +1,134 @@
+{
+	"assign": {
+		"prefix": "assign",
+		"body": "{% assign $1 = $2 %}",
+		"description": "assign",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"break": {
+		"prefix": "break",
+		"body": "{% break %}",
+		"description": "break",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"capture": {
+		"prefix": "capture",
+		"body": "\n{% capture $1 %}\n$0\n{% endcapture %}\n",
+		"description": "capture",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"case": {
+		"prefix": "case",
+		"body": "\n{% case $1 %}\n    $0\n{% endcase %}\n ",
+		"description": "case",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"comment": {
+		"prefix": "comment",
+		"body": "\n{% comment %}\n$0\n{% endcomment %}\n\t",
+		"description": "comment",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"va": {
+		"prefix": "va",
+		"body": "{{ $1 }}",
+		"description": "context variable (var)",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"continue": {
+		"prefix": "continue",
+		"body": "{% continue %}",
+		"description": "continue",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"cycle": {
+		"prefix": "cycle",
+		"body": "{% cycle $1 %}",
+		"description": "cycle",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"decrement": {
+		"prefix": "decrement",
+		"body": "{% decrement $1 %}",
+		"description": "decrement",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"elsif": {
+		"prefix": "elsif",
+		"body": "{% elsif $1 %}",
+		"description": "elsif",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "\n{% for $1 in $2 %}\n$0\n{% endfor %}\n\t",
+		"description": "for",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"gist": {
+		"prefix": "gist",
+		"body": "{% gist $1 %}",
+		"description": "gist",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"highlight": {
+		"prefix": "highlight",
+		"body": "\n{% highlight $1 %}\n$0\n{% endhighlight %}\n ",
+		"description": "highlight",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "\n{% if $1 %}\n$0\n{% endif %}\n ",
+		"description": "if",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"ifelse": {
+		"prefix": "ifelse",
+		"body": "\n{% if $1 %}\n$2\n{% else %}\n$0\n{% endif %}\n\t",
+		"description": "if... else...",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"include": {
+		"prefix": "include",
+		"body": "{% include $1 %}",
+		"description": "include",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"include_relative": {
+		"prefix": "include_relative",
+		"body": "{% include_relative $1 %}",
+		"description": "include_relative",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"increment": {
+		"prefix": "increment",
+		"body": "{% increment $1 %}",
+		"description": "increment",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"post_url": {
+		"prefix": "post_url",
+		"body": "{% post_url $1 %}",
+		"description": "post_url",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"raw": {
+		"prefix": "raw",
+		"body": "\n{% raw %}\n$0\n{% endraw %}\n",
+		"description": "raw",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"unless": {
+		"prefix": "unless",
+		"body": "\n{% unless $1 %}\n$0\n{% endunless %}\n ",
+		"description": "unless",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	},
+	"when": {
+		"prefix": "when",
+		"body": "{% when $1 %} ",
+		"description": "when",
+		"scope": "text.html, text.html.markdown, source.json, text.html.textile, source.sass, source.scss"
+	}
+}

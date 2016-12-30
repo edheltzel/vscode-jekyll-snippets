@@ -1,0 +1,21 @@
+{
+    "name": "jekyll-snippets",
+    "displayName": "jekyll-snippets",
+    "description": "Jekyll snippets for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "ginfuru",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html, liquid",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
