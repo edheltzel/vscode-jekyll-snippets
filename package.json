@@ -13,7 +13,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "html, liquid",
+                "language": "html, liquid, markdown",
                 "path": "./snippets/snippets.json"
             }
         ]
