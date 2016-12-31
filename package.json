@@ -1,20 +1,37 @@
 {
-    "name": "jekyll-snippets",
-    "displayName": "jekyll-snippets",
-    "description": "Jekyll snippets for Visual Studio Code",
+    "name": "vscode-jekyll-snippets",
     "version": "0.0.1",
     "publisher": "ginfuru",
+    "displayName": "Jekyll Snippets",
+    "description": "Jekyll snippets for Visual Studio Code",
+    "icon": "images/jekyll-logo.png",
+    "galleryBanner": {
+        "color": "#333333",
+        "theme": "dark"
+    },
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "0.10.x"
     },
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "snippets",
+        "liquid",
+        "jekyll"
+    ],
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "homepage": "https://github.com/ginfuru/vscode-jekyll-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ginfuru/vscode-jekyll-snippets.git"
+    },
+    "bugs": "https://github.com/ginfuru/vscode-jekyll-snippets/issues",
     "contributes": {
         "snippets": [
             {
-                "language": "html, liquid, markdown",
-                "path": "./snippets/snippets.json"
+                "language": "liquid",
+                "path": "./snippets/liquid.json"
             }
         ]
     }
