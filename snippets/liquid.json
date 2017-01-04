@@ -68,6 +68,22 @@
         ]
     },
 
+    "Tag collection directory": {
+        "prefix": "cdirp",
+        "description": "The full path to the collection's source direcotry",
+        "body": [
+            "{{ site.${my_collection}.directory }}"
+        ]
+    },
+
+    "Tag collection relative path": {
+        "prefix": "crelp",
+        "description": "The path to the document's source file realtive to the site source",
+        "body": [
+            "{{ site.collections.${my_collection}.relative_path }}"
+        ]
+    },
+
     "Tag decrement": {
         "prefix": "decrement",
         "description": "Variable tag: decrement",
@@ -474,5 +490,5 @@
             "excertp: ${description}",
             "---"
         ]
-    },
+    }
 }
