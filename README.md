@@ -3,17 +3,17 @@
 Jekyll snippets for Visual Studio Code. This is a combination of both the the [sublime-jekyll package](https://github.com/23maverick23/sublime-jekyll)
 by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll package](https://atom.io/packages/jekyll-snippets) by [@jasonhodges](https://github.com/jasonhodges). 
 
-## Dependancy Alert
+## Dependancy Alert ️️️
 You will need to have the [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) extension installed for the snippets to work as expected, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
 
 ### Why do you need it? 
 
 1. ✔ Provides syntax highlighing for your liquid tags.
 2. ✔ Provides liquid extension and support.
-    * By changing your `HTML` syntax to `HTML(Liquid)` will allow this extension/snippets to work as expected. My reasoning for doing this is/was to prevent clutter and possible conflicts with other snippets inside of IntelliSense/autocomplete. _(Who really likes scrolling through and selecting the wrong autoecomplete by mistake `¯\_(ツ)_/¯`)_
+    * By changing your `HTML` syntax to `HTML(Liquid)` will allow this extension/snippets to work as expected. My reasoning for doing this is/was to prevent clutter and possible conflicts with other snippets inside of IntelliSense/autocomplete. _(Who really likes scrolling through and selecting the wrong autocomplete by mistake?)_ `¯\_(ツ)_/¯`
 
 
-If you think this would work with vanilla HTML and Markdown let me know with an issue or create a pull-request with a fix. _(I personally don't see a need because, I personally enjoy syntax highlighting)_
+If you think this should work with vanilla HTML and Markdown let me know with an issue or create a pull-request with a fix. _(I personally don't see a need because, I enjoy the syntax highlighting)_
 
 ## Roadmap & Contributing
 
