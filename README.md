@@ -17,6 +17,6 @@ If you think this should work with vanilla HTML and Markdown let me know with an
 
 ## Roadmap & Contributing
 
-I do have plans to continue adding more snippets, based on the [Jekyll Tips Cheat Sheet](http://jekyll.tips/jekyll-cheat-sheet/), but **PLEASE** feel free to contribute and/or file issues with requests.
+I do have plans to continue adding more snippets, based on the [Jekyll Tips Cheat Sheet](http://jekyll.tips/jekyll-cheat-sheet/), but **PLEASE** feel free to contribute and/or file issues with requests. If you do want to contribute please make sure to create a feature branch and when creating a pull request to rebase or squash prior to. 
 
 > ##### Thanks again to [@23maverick23.](https://github.com/23maverick23) and [@jasonhodges](https://github.com/jasonhodges)
