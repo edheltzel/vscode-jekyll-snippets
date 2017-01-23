@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
-## V 0.3.3 _(01-23-2017)_
+## V 0.4.0 _(01-23-2017)_
 * updated the `CHANGELOG.md`
 * added date variable
 
