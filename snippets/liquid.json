@@ -1,4 +1,16 @@
 {
+    "Show": {
+        "prefix": "show",
+        "description": "Output markup: {{ }}",
+        "body": "{{ $1 }}"
+    },
+
+    "Execute": {
+        "prefix": "execute",
+        "description": "Tag markup: {% %}",
+        "body": "{% $1 %}"
+    },
+
     "Tag assign": {
         "prefix": "assign",
         "description": "Variable tag: assign",
