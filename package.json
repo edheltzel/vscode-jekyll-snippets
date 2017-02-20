@@ -32,6 +32,10 @@
             {
                 "language": "liquid",
                 "path": "./snippets/liquid.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/liquid.json"
             }
         ]
     },
