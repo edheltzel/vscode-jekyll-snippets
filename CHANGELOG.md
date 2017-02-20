@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.6.0 _(02-20-2017)_
+* added markdown support requested from @Haroenv on issue #7
+
+## V 0.5.0 _(02-18-2017)_
+* merged the pull request from @thierrymichel
+
 ## V 0.4.0 _(01-23-2017)_
 * updated the `CHANGELOG.md`
 * added date variable

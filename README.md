@@ -3,10 +3,11 @@
 Jekyll snippets for Visual Studio Code. This is a combination of both the the [sublime-jekyll package](https://github.com/23maverick23/sublime-jekyll)
 by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll package](https://atom.io/packages/jekyll-snippets) by [@jasonhodges](https://github.com/jasonhodges). 
 
-## Dependancy Alert ️️️
-> `01-23-2017` - I added support for `extensionDependencies` to the extension manifest, so in theory the Liquid Languages Support extension should download when you install the Jekyll Snippets. [Ref. Sept 2016 VSCode Update Doc.](https://code.visualstudio.com/updates/v1_6#_extensions)
+## Liquid and Markdown Support
 
-You will need to have the [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) extension installed for the snippets to work as expected, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
+If you are downloading the extension for the first time you'll be prompted that the [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) will also be installed. This happens because of the `extensionDependencies` which elminates the need to manaully fetch another extension, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
+
+Markdown support has also been added which was referenced in issue [#7](https://github.com/ginfuru/vscode-jekyll-snippets/issues/7) by @Haroenv. I haven't found a markdown grammer file that highlights liquid syntax
 
 ### Why do you need it? 
 
