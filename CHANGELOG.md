@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.7.0 _(04-06-2017)_
+* removed single quote from include snippet
+
 ## V 0.6.0 _(02-20-2017)_
 * added markdown support requested from @Haroenv on issue #7
 
