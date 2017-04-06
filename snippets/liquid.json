@@ -121,7 +121,7 @@
             "{% increment ${variable} %}"
         ]
     },
-	
+
 		"Tag if": {
         "prefix": "if",
         "description": "Control flow tag: if",
@@ -182,7 +182,7 @@
         "prefix": "include",
         "description": "Tag: include",
         "body": [
-            "{% include '${snippet}' %}"
+            "{% include ${snippet} %}"
         ]
     },
 
