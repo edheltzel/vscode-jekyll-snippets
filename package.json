@@ -1,6 +1,6 @@
 {
     "name": "vscode-jekyll-snippets",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "publisher": "ginfuru",
     "displayName": "Jekyll Snippets",
     "description": "Jekyll snippets for Visual Studio Code",
@@ -35,6 +35,10 @@
                 "path": "./snippets/liquid.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/liquid.json"
+            },
+            {
                 "language": "markdown",
                 "path": "./snippets/liquid.json"
             }
@@ -42,5 +46,10 @@
     },
     "extensionDependencies": [
         "neilding.language-liquid"
-    ]
+    ],
+    "__metadata": {
+        "id": "7891ba3a-fe11-4e55-bf8f-21479bed022c",
+        "publisherId": "e4159f93-1b6e-4dd8-b879-3bc62c30dad0",
+        "publisherDisplayName": "ginfuru"
+    }
 }

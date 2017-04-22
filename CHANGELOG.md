@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.0 _(04-21-2017)_
+* added HTML support due to odd behavior from other extensions not recognizing Liquid
+
 ## V 0.7.0 _(04-06-2017)_
 * removed single quote from include snippet
 
