@@ -7,20 +7,21 @@ by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll packag
 
 If you are downloading the extension for the first time you'll be prompted that the [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) will also be installed. This happens because of the `extensionDependencies` which elminates the need to manaully fetch another extension, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
 
-Markdown support has also been added which was referenced in issue [#7](https://github.com/ginfuru/vscode-jekyll-snippets/issues/7) by @Haroenv. I haven't found a markdown grammer file that highlights liquid syntax
-
-HTML support has benen added due to some odd behave from extenions I use which doesn't provide support `liquid`
-
-### Why you might want liquid extension?
+#### Why you might want liquid extension?
 
 1. ✔ Provides syntax highlighing for your liquid tags.
 2. ✔ Provides liquid extension and support.
-    * ~~By changing your `HTML` syntax to `HTML(Liquid)` will allow this extension/snippets to work as expected. My reasoning for doing this is/was to prevent clutter and possible conflicts with other snippets inside of IntelliSense/autocomplete. _(Who really likes scrolling through and selecting the wrong autocomplete by mistake?)_~~  `¯\_(ツ)_/¯`
 3. ✔ Provide syntax highlighting for liquid tags - ie: `{{ site.baseurl }}` & `{% for something in this_file %} {% endfor %}`
      * By changing your `HTML` syntax to `HTML(Liquid)`
 
 
-If you think this should work with vanilla HTML and Markdown let me know with an issue or create a pull-request with a fix. _(I personally don't see a need because, I enjoy the syntax highlighting)_
+* **Support for markdown has also been added**, which was referenced in issue [#7](https://github.com/ginfuru/vscode-jekyll-snippets/issues/7) by [@Haroenv](https://github.com/Haroenv). I haven't found a markdown grammer file that highlights liquid syntax.
+
+* **Support for html has been added**, due to some odd behavior from other extenions I use which doesn't provide support for `liquid` file extension.
+
+## Optional Extensions to install
+ As noted by [@Serhioromano](https://github.com/Serhioromano) in issue #8, formatting for front-matter and liquid tags are not supported by the default formatter for VSCode _(JS-Beautify)_ this is resolved by installing [vscode-prettydiff](https://marketplace.visualstudio.com/items?itemName=HexcodeTechnologies.vscode-prettydiff).
+
 
 ## Roadmap & Contributing
 
