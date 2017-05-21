@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.1 _(05-21-2017)_
+* updated readme to reflex the issue with formating repored from issue #8
+
 ## V 0.8.0 _(04-21-2017)_
 * added HTML support due to odd behavior from other extensions not recognizing Liquid
 
