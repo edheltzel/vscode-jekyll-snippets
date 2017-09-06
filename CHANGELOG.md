@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.2 _(09-06-2017)_
+* added jsonify and fixed a few snippets
+
 ## V 0.8.1 _(05-21-2017)_
 * updated readme to reflex the issue with formating repored from issue #8
 
