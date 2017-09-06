@@ -269,10 +269,16 @@
 				]
     },
 
+    "Filter jsonify": {
+        "prefix": "json",
+        "description": "Array filter: jsonify",
+        "body": "| jsonify }}'"
+    },
+
     "Filter join": {
         "prefix": "join",
         "description": "Array filter: join",
-        "body": "| join: '${seperator:, }'"
+        "body": "| join: '${seperator:, }}'"
     },
 
     "Filter first": {
@@ -362,139 +368,145 @@
     "Filter append": {
         "prefix": "append",
         "description": "String filter: append",
-        "body": "| append: '${string}'"
+        "body": "| append: '${string}' }}"
     },
 
     "Filter capitalize": {
         "prefix": "capitalize",
         "description": "String filter: capitalize",
-        "body": "| capitalize"
+        "body": "| capitalize }}"
     },
 
     "Filter downcase": {
         "prefix": "downcase",
         "description": "String filter: downcase",
-        "body": "| downcase"
+        "body": "| downcase }}"
     },
 
     "Filter escape": {
         "prefix": "escape",
         "description": "String filter: escape",
-        "body": "| escape"
+        "body": "| escape }}"
+    },
+
+    "Filter markdownify": {
+        "prefix": "markdown",
+        "description": "String filter: markdownify",
+        "body": "| markdownify }}"
     },
 
     "Filter prepend": {
         "prefix": "prepend",
         "description": "String filter: prepend",
-        "body": "| prepend: '${string}'"
+        "body": "| prepend: '${string}' }}"
     },
 
     "Filter remove": {
         "prefix": "remove",
         "description": "String filter: remove",
-        "body": "| remove: '${string}'"
+        "body": "| remove: '${string}' }}"
     },
 
     "Filter remove first": {
         "prefix": "remove_first",
         "description": "String filter: remove first",
-        "body": "| remove_first: '${string}'"
+        "body": "| remove_first: '${string}' }}"
     },
 
     "Filter replace": {
         "prefix": "replace",
         "description": "String filter: replace",
-        "body": "| replace: '${target}', '${replace}'"
+        "body": "| replace: '${target}', '${replace}' }}"
     },
 
     "Filter replace first": {
         "prefix": "replace_first",
         "description": "String filter: replace first",
-        "body": "| replace_first: '${target}', '${replace}'"
+        "body": "| replace_first: '${target}', '${replace}' }}"
     },
 
     "Filter slice": {
         "prefix": "slice",
         "description": "String filter: slice",
-        "body": "| slice: ${from:0}, ${to:5}"
+        "body": "| slice: ${from:0}, ${to:5} }}"
     },
 
     "Filter slice single character": {
         "prefix": "slice_single",
         "description": "String filter: slice with single parameter",
-        "body": "| slice: ${at}"
+        "body": "| slice: ${at} }}"
     },
 
     "Filter split": {
         "prefix": "split",
         "description": "String filter: split",
-        "body": "| split: '${splitter:,}'"
+        "body": "| split: '${splitter:,}' }}"
     },
 
     "Filter strip": {
         "prefix": "strip",
         "description": "String filter: strip",
-        "body": "| strip"
+        "body": "| strip }}"
     },
 
     "Filter lstrip": {
         "prefix": "lstrip",
         "description": "String filter: lstrip",
-        "body": "| lstrip"
+        "body": "| lstrip }}"
     },
 
     "Filter rstrip": {
         "prefix": "rstrip",
         "description": "String filter: rstrip",
-        "body": "| rstrip"
+        "body": "| rstrip }}"
     },
 
     "Filter strip html": {
         "prefix": "strip_html",
         "description": "String filter: strip html",
-        "body": "| strip_html"
+        "body": "| strip_html }}"
     },
 
     "Filter strip newlines": {
         "prefix": "strip_newlines",
         "description": "String filter: strip newlines",
-        "body": "| strip_newlines"
+        "body": "| strip_newlines }}"
     },
 
     "Filter truncate": {
         "prefix": "truncate",
         "description": "String filter: truncate",
-        "body": "| truncate: ${length:20}, '${ellipsis:...}'"
+        "body": "| truncate: ${length:20}, '${ellipsis:...}' }}"
     },
 
     "Filter truncatewords": {
         "prefix": "truncatewords",
         "description": "String filter: truncatewords",
-        "body": "| truncatewords: ${length:5}, '${ellipsis:...}'"
+        "body": "| truncatewords: ${length:5}, '${ellipsis:...}' }}"
     },
 
     "Filter upcase": {
         "prefix": "upcase",
-        "description": "String filter: upcase",
-        "body": "| upcase"
+        "description": "String filter: upcase }}",
+        "body": "| upcase }}"
     },
 
 		"Filter url encode": {
         "prefix": "url_encode",
         "description": "String filter: url encode",
-        "body": "| url_encode"
+        "body": "| url_encode }}"
     },
 
     "Filter uri escape": {
         "prefix": "uri_escape",
         "description": "String filter: uri escape",
-        "body": "| uri_escape"
+        "body": "| uri_escape }}"
     },
 
     "Filter xml escape": {
         "prefix": "xml_escape",
         "description": "String filter: xml escape",
-        "body": "| xml_escape"
+        "body": "| xml_escape }}"
     },
 
     "Front Matter": {
