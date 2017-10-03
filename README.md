@@ -1,4 +1,4 @@
-# <a href="http://jekyllrb.com" title="Jekyll" target="_blank"><img src="https://github.com/ginfuru/vscode-jekyll-snippets/blob/master/images/jekyll-logo.png" atl="Jekyll Logo" width="250"></a> snippets package for Visual Studio Code.
+# <a href="http://jekyllrb.com" title="Jekyll" target="_blank"><img src="https://raw.githubusercontent.com/ginfuru/vscode-jekyll-snippets/master/images/jekyll-logo.png" atl="Jekyll Logo" width="250"></a> snippets package for Visual Studio Code.
 
 [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-jekyll-snippets.svg)](https://github.com/ginfuru/vscode-jekyll-snippets/releases)
 

@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.4 _(10-02-2017)_
+* fixed image in readme
+
 ## V 0.8.3 _(10-02-2017)_
 * update `extensionDependencies` to [Jekyll Syntax Support](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax)
 
