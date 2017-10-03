@@ -45,7 +45,7 @@
         ]
     },
     "extensionDependencies": [
-        "neilding.language-liquid"
+        "ginfuru.ginfuru-vscode-jekyll-syntax"
     ],
     "__metadata": {
         "id": "7891ba3a-fe11-4e55-bf8f-21479bed022c",
