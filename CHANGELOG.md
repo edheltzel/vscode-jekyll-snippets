@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.5 10-09-2017
+* Added `.jekyll` lang support
+
 ## V 0.8.4 _(10-02-2017)_
 * fixed image in readme
 

@@ -32,15 +32,19 @@
         "snippets": [
             {
                 "language": "liquid",
-                "path": "./snippets/liquid.json"
+                "path": "./snippets/jekyll.json"
+            },
+            {
+                "language": "jekyll",
+                "path": "./snippets/jekyll.json"
             },
             {
                 "language": "html",
-                "path": "./snippets/liquid.json"
+                "path": "./snippets/jekyll.json"
             },
             {
                 "language": "markdown",
-                "path": "./snippets/liquid.json"
+                "path": "./snippets/jekyll.json"
             }
         ]
     },
