@@ -1,6 +1,6 @@
 {
     "name": "vscode-jekyll-snippets",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "publisher": "ginfuru",
     "displayName": "Jekyll Snippets",
     "description": "Jekyll snippets for Visual Studio Code",
