@@ -5,7 +5,7 @@
 Jekyll snippets for Visual Studio Code. This is a combination of both the the [sublime-jekyll package](https://github.com/23maverick23/sublime-jekyll)
 by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll package](https://atom.io/packages/jekyll-snippets) by [@jasonhodges](https://github.com/jasonhodges).
 
-## HTML, Liquid, and Markdown Support
+## HTML, Jekyll Lang and Markdown Support
 
 If you are downloading the extension for the first time you'll be prompted that the [Jekyll Syntax Support](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax) extension will also be installed. This happens because of the `extensionDependencies` which elminates the need to manaully fetch another extension, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
 

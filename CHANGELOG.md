@@ -2,6 +2,10 @@
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
 ## V 0.8.5 10-09-2017
+* removes `.liquid` lang support
+   * you should download [Liquid Languages Suport](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) if you want need liquid snippets outside the support that Jekyll uses
+
+## V 0.8.5 10-09-2017
 * Added `.jekyll` lang support
 
 ## V 0.8.4 _(10-02-2017)_

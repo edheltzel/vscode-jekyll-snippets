@@ -31,10 +31,6 @@
     "contributes": {
         "snippets": [
             {
-                "language": "liquid",
-                "path": "./snippets/jekyll.json"
-            },
-            {
                 "language": "jekyll",
                 "path": "./snippets/jekyll.json"
             },
