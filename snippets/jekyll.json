@@ -519,7 +519,7 @@
             "categories: ${category}",
             "permalink: ${path}",
             "tags: ${tag}",
-            "excertp: ${description}",
+            "excerpt: ${description}",
             "---"
         ]
     }
