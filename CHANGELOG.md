@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.8.7 11-14-2017
+* miss spelled snippet fixed by [@KrisvanderMast](https://github.com/KrisvanderMast) on pull-request [#10](https://github.com/ginfuru/vscode-jekyll-snippets/pull/10)
+
 ## V 0.8.6 10-09-2017
 * removes `.liquid` lang support
    * you should download [Liquid Languages Suport](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) if you want need liquid snippets outside the support that Jekyll uses
