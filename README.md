@@ -13,7 +13,7 @@ If you are downloading the extension for the first time you'll be prompted that 
 
 1. ✔ Provides syntax highlighing **Front Matter**.
 2. ✔ Provides jekyll extension and support on HTML files.
-3. ✔ Provide syntax highlighting for _jekyll supported_ liquid tags - ie: `{{ site.baseurl }}` & `{% for something in this_file %} {% endfor %}`
+3. ✔ Provide syntax highlighting for _jekyll supported_ liquid tags - ie: `{{ site.baseurl }}` & `{%- for something in this_file -%} {%- endfor -%}`
      * By changing your `HTML` syntax to `Jekyll (HTML)`
 
 

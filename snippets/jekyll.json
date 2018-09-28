@@ -7,15 +7,15 @@
 
     "Execute": {
         "prefix": "execute",
-        "description": "Tag markup: {% %}",
-        "body": "{% $1 %}"
+        "description": "Tag markup: {%- -%}",
+        "body": "{%- $1 -%}"
     },
 
     "Tag assign": {
         "prefix": "assign",
         "description": "Variable tag: assign",
         "body": [
-            "{% assign ${variable} = ${value} %}"
+            "{%- assign ${variable} = ${value} -%}"
         ]
     },
 
@@ -23,7 +23,7 @@
         "prefix": "break",
         "description": "Iteration tag: break",
         "body": [
-            "{% break %}"
+            "{%- break -%}"
         ]
     },
 
@@ -31,7 +31,7 @@
         "prefix": "capture",
         "description": "Variable tag: capture",
         "body": [
-            "{% capture ${variable} %}${code:}{% endcapture %}"
+            "{%- capture ${variable} -%}${code:}{%- endcapture -%}"
         ]
     },
 
@@ -39,12 +39,12 @@
         "prefix": "case",
         "description": "Control flow tag: case",
         "body": [
-            "{% case ${variable} %}",
-            "\t{% when ${condition} %}",
+            "{%- case ${variable} -%}",
+            "\t{%- when ${condition} -%}",
             "\t\t${code1:}",
-            "\t{% else %}",
+            "\t{%- else -%}",
             "\t\t${code2:}",
-            "{% endcase %}"
+            "{%- endcase -%}"
         ]
     },
 
@@ -52,7 +52,7 @@
         "prefix": "comment",
         "description": "Control flow tag: case",
         "body": [
-            "{% comment %}${description:}{% endcomment %}"
+            "{%-zzzz comment -%}${description:}{%- endcomment -%}"
         ]
     },
 
@@ -68,7 +68,7 @@
         "prefix": "continue",
         "description": "Iteration tag: continue",
         "body": [
-            "{% continue %}"
+            "{%- continue -%}"
         ]
     },
 
@@ -76,7 +76,7 @@
         "prefix": "cycle",
         "description": "Iteration tag: cycle",
         "body": [
-            "{% cycle '${0:odd}', '${1:even}' %}"
+            "{%- cycle '${0:odd}', '${1:even}' -%}"
         ]
     },
 
@@ -100,7 +100,7 @@
         "prefix": "decrement",
         "description": "Variable tag: decrement",
         "body": [
-            "{% decrement ${variable} %}"
+            "{%- decrement ${variable} -%}"
         ]
     },
 
@@ -108,9 +108,9 @@
         "prefix": "for",
         "description": "Iteration tag: for",
         "body": [
-            "{% for ${item} in ${collection} %}",
+            "{%- for ${item} in ${collection} -%}",
             "\t${code:}",
-            "{% endfor %}"
+            "{%- endfor -%}"
         ]
     },
 
@@ -118,7 +118,7 @@
         "prefix": "increment",
         "description": "Variable tag: increment",
         "body": [
-            "{% increment ${variable} %}"
+            "{%- increment ${variable} -%}"
         ]
     },
 
@@ -126,9 +126,9 @@
         "prefix": "if",
         "description": "Control flow tag: if",
         "body": [
-            "{% if ${condition} %}",
+            "{%- if ${condition} -%}",
             "\t${code:}",
-            "{% endif %}"
+            "{%- endif -%}"
         ]
     },
 
@@ -136,7 +136,7 @@
         "prefix": "else",
         "description": "Control flow tag: else",
         "body": [
-            "{% else %}"
+            "{%- else -%}"
         ]
     },
 
@@ -144,7 +144,7 @@
         "prefix": "elsif",
         "description": "Control flow tag: elsif",
         "body": [
-            "{% elsif ${condition} %}"
+            "{%- elsif ${condition} -%}"
         ]
     },
 
@@ -152,11 +152,11 @@
         "prefix": "ifelse",
         "description": "Control flow tag: if else",
         "body": [
-            "{% if ${condition} %}",
+            "{%- if ${condition} -%}",
             "\t${code1:}",
-            "{% else %}",
+            "{%- else -%}",
             "\t${code2:}",
-            "{% endif %}"
+            "{%- endif -%}"
         ]
     },
 
@@ -164,7 +164,7 @@
         "prefix": "gist",
         "description": "Add a gist code block",
         "body": [
-            "{% gist ${gist:user/gist-id} %}"
+            "{%- gist ${gist:user/gist-id} -%}"
         ]
     },
 
@@ -172,9 +172,9 @@
         "prefix": "highlight",
         "description": "Syntax tag: highlight",
         "body": [
-            "{% highlight ${lang:javascript} %}",
+            "{%- highlight ${lang:javascript} -%}",
             "\t\t${code:}",
-            "{% endhighlight %}"
+            "{%- endhighlight -%}"
         ]
     },
 
@@ -182,7 +182,7 @@
         "prefix": "include",
         "description": "Tag: include",
         "body": [
-            "{% include ${snippet} %}"
+            "{%- include ${snippet} -%}"
         ]
     },
 
@@ -198,7 +198,7 @@
         "prefix": "increl",
         "description": "Tag: include relative",
         "body": [
-            "{% include_relative '${file:}' %}"
+            "{%- include_relative '${file:}' -%}"
         ]
     },
 
@@ -206,7 +206,7 @@
         "prefix": "posturl",
         "description": "Tag: post_url",
         "body": [
-            "{%post_url ${url:} %}"
+            "{%-post_url ${url:} -%}"
         ]
     },
 
@@ -214,9 +214,9 @@
         "prefix": "unless",
         "description": "Control flow tag: unless",
         "body": [
-            "{% unless ${condition} %}",
+            "{%- unless ${condition} -%}",
             "\t${code:}",
-            "{% endunless %}"
+            "{%- endunless -%}"
         ]
     },
 
@@ -224,7 +224,7 @@
         "prefix": "when",
         "description": "Control flow tag: when",
         "body": [
-            "{% when ${condition} %}",
+            "{%- when ${condition} -%}",
             "${code:}"
         ]
     },
@@ -257,7 +257,7 @@
         "prefix": "raw",
         "description": "Tag: raw",
         "body": [
-            "{% raw %}${code:}{% endraw %}"
+            "{%- raw -%}${code:}{%- endraw -%}"
         ]
     },
 
