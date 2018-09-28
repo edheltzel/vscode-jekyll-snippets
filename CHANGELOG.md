@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
-## V 0.8.8 09-28-2018
+## V 0.9.0 09-28-2018
 * adds whitespace control for some control flow, comments, iterations and variables.
 
 ## V 0.8.7 11-14-2017
