@@ -1,5 +1,12 @@
 # Change Log
-All notable changes to the "jekyll-snippets" extension will be documented in this file.
+
+## v1.0.0 | 00-00-2019
+Adds support for Jekyll Commands via the Command Prompt
+* Supprt Includes:
+   1. Create new jekyll site
+   2. Create posts
+   3. Build site
+   4. Run and stop server
 
 ## V 0.9.0 09-28-2018
 * adds whitespace control for some control flow, comments, iterations and variables.
@@ -44,7 +51,7 @@ All notable changes to the "jekyll-snippets" extension will be documented in thi
 
 ## V 0.3.2 _(01-23-2017)_
 * Added `extensionDependencies` support to the package manifest
-  * This will now prompt/inform you that the `Liquid Language Support` extension is needed and will ask you if you want to download it. 
+  * This will now prompt/inform you that the `Liquid Language Support` extension is needed and will ask you if you want to download it.
 
 ## V 0.3.1 _(1.4.17)_
 * minor release to keep github release/tags in sync with `vsce minor` update
