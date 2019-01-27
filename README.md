@@ -1,11 +1,16 @@
-# <a href="http://jekyllrb.com" title="Jekyll" target="_blank"><img src="https://raw.githubusercontent.com/ginfuru/vscode-jekyll-snippets/master/images/jekyll-logo.png" atl="Jekyll Logo" width="250"></a> snippets package for Visual Studio Code.
+# <a href="http://jekyllrb.com" title="Jekyll" target="_blank"><img src="https://raw.githubusercontent.com/ginfuru/vscode-jekyll-snippets/master/images/jekyll-logo.png" atl="Jekyll Logo" width="250"></a> package for Visual Studio Code.
 
 [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-jekyll-snippets.svg)](https://github.com/ginfuru/vscode-jekyll-snippets/releases)
 
-Jekyll snippets for Visual Studio Code. This is a combination of both the the [sublime-jekyll package](https://github.com/23maverick23/sublime-jekyll)
-by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll package](https://atom.io/packages/jekyll-snippets) by [@jasonhodges](https://github.com/jasonhodges).
+A Visual Studio Code package for Jekyll static sites and blogs.
 
-## HTML, Jekyll Lang and Markdown Support
+## Features
+1. Create a new jekyll site
+2. Create posts
+3. Build site
+4. Start and Stop the server
+5. Jekyll Snippets - _(supports HTML/Markdown/Jkeyll Syntax)_
+
 
 If you are downloading the extension for the first time you'll be prompted that the [Jekyll Syntax Support](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax) extension will also be installed. This happens because of the `extensionDependencies` which elminates the need to manaully fetch another extension, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
 
@@ -21,12 +26,11 @@ If you are downloading the extension for the first time you'll be prompted that 
 
 * **Support for html has been added**, due to some odd behavior from other extenions I use which doesn't provide support for `liquid` file extension.
 
-## Optional Extensions to install
- As noted by [@Serhioromano](https://github.com/Serhioromano) in issue #8, formatting for front-matter and liquid tags are not supported by the default formatter for VSCode _(JS-Beautify)_ this is resolved by installing [vscode-prettydiff](https://marketplace.visualstudio.com/items?itemName=HexcodeTechnologies.vscode-prettydiff).
-
 
 ## Roadmap & Contributing
 
-I do have plans to continue adding more snippets, based on the [Jekyll Tips Cheat Sheet](http://jekyll.tips/jekyll-cheat-sheet/), but **PLEASE** feel free to contribute and/or file issues with requests. If you do want to contribute please make sure to create a feature branch and when creating a pull request to rebase or squash prior to.
+I do have plans to continue adding more snippets and other feaatures, based on the CloudCannon [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/), but **PLEASE** feel free to contribute and/or file issues with requests.
 
-> ##### Thanks again to [@23maverick23.](https://github.com/23maverick23) and [@jasonhodges](https://github.com/jasonhodges)
+> #### Thanks again to [@23maverick23.](https://github.com/23maverick23) and [@jasonhodges](https://github.com/jasonhodges)
+>This is a combination of both the the [sublime-jekyll package](https://github.com/23maverick23/sublime-jekyll)
+by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll package](https://atom.io/packages/jekyll-snippets) by [@jasonhodges](https://github.com/jasonhodges).

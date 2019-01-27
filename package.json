@@ -2,8 +2,8 @@
   "name": "vscode-jekyll-snippets",
   "version": "0.9.0",
   "publisher": "ginfuru",
-  "displayName": "Jekyll Snippets",
-  "description": "Jekyll snippets for Visual Studio Code",
+  "displayName": "Jekyll Package",
+  "description": "A Visual Studio Code package for Jekyll static sites and blogs",
   "icon": "images/jekyll-logo.png",
   "galleryBanner": {
     "color": "#333333",
