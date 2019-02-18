@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.9.1 02-18-2019
+* fixes typos introduced in `V0.9.0` - thanks to [@kravenoff42](https://github.com/kravenoff42) for the catch
+
 ## V 0.9.0 09-28-2018
 * adds whitespace control for some control flow, comments, iterations and variables.
 
@@ -44,7 +47,7 @@ All notable changes to the "jekyll-snippets" extension will be documented in thi
 
 ## V 0.3.2 _(01-23-2017)_
 * Added `extensionDependencies` support to the package manifest
-  * This will now prompt/inform you that the `Liquid Language Support` extension is needed and will ask you if you want to download it. 
+  * This will now prompt/inform you that the `Liquid Language Support` extension is needed and will ask you if you want to download it.
 
 ## V 0.3.1 _(1.4.17)_
 * minor release to keep github release/tags in sync with `vsce minor` update
