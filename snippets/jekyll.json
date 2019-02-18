@@ -52,7 +52,7 @@
         "prefix": "comment",
         "description": "Control flow tag: case",
         "body": [
-            "{%-zzzz comment -%}${description:}{%- endcomment -%}"
+            "{%- comment -%}${description:}{%- endcomment -%}"
         ]
     },
 
@@ -206,7 +206,7 @@
         "prefix": "posturl",
         "description": "Tag: post_url",
         "body": [
-            "{%-post_url ${url:} -%}"
+            "{%- post_url ${url:} -%}"
         ]
     },
 
