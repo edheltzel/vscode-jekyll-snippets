@@ -1,6 +1,6 @@
 {
   "name": "vscode-jekyll-snippets",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "publisher": "ginfuru",
   "displayName": "Jekyll Snippets",
   "description": "Jekyll snippets for Visual Studio Code",
@@ -12,8 +12,15 @@
   "engines": {
     "vscode": "0.10.x"
   },
-  "categories": [ "Snippets" ],
-  "keywords": [ "snippets", "markdown", "liquid", "jekyll" ],
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "markdown",
+    "liquid",
+    "jekyll"
+  ],
   "license": "SEE LICENSE IN LICENSE.txt",
   "homepage": "https://github.com/ginfuru/vscode-jekyll-snippets",
   "repository": {
