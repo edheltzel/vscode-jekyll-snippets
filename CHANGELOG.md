@@ -2,6 +2,10 @@
 
 All notable changes to the "jekyll-snippets" extension will be documented in this file.
 
+## V 0.9.3 03-19-2020
+
+- Update readme to showcase how to get the `quickSelections` to work for markdown files
+
 ## V 0.9.2 02-20-2020
 
 - removes Jekyll Syntax as a dependency -- I do suggest using [Liquid Language Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid) over-top of Jekyll Syntax 😬

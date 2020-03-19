@@ -7,22 +7,19 @@ by [@23maverick23.](https://github.com/23maverick23) and the [atom-jekyll packag
 
 ## HTML, Jekyll Lang and Markdown Support
 
-If you are downloading the extension for the first time you'll be prompted that the [Jekyll Syntax Support](https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax) extension will also be installed. This happens because of the `extensionDependencies` which elminates the need to manaully fetch another extension, which was referenced in issue [#3](https://github.com/ginfuru/vscode-jekyll-snippets/issues/3) by @graffen.
-
-#### Why you might want Jekyll Syntax extension?
-
-1. ✔ Provides syntax highlighing **Front Matter**.
-2. ✔ Provides jekyll extension and support on HTML files.
-3. ✔ Provide syntax highlighting for _jekyll supported_ liquid tags - ie: `{{ site.baseurl }}` & `{%- for something in this_file -%} {%- endfor -%}`
-     * By changing your `HTML` syntax to `Jekyll (HTML)`
-
-
 * **Support for markdown has also been added**, which was referenced in issue [#7](https://github.com/ginfuru/vscode-jekyll-snippets/issues/7) by [@Haroenv](https://github.com/Haroenv). I haven't found a markdown grammer file that highlights liquid syntax.
 
-* **Support for html has been added**, due to some odd behavior from other extenions I use which doesn't provide support for `liquid` file extension.
+     If you want to have snippets suggestions as you type, you'll need to add the below to your global settings or workspace settings:
+     ```
+     {
+      "[markdown]": {
+          "editor.quickSuggestions": true
+       }
+     }
+     ```
+     Alternatively, you can also use the keyboard trigger `ctrl+ space`
 
-## Optional Extensions to install
- As noted by [@Serhioromano](https://github.com/Serhioromano) in issue #8, formatting for front-matter and liquid tags are not supported by the default formatter for VSCode _(JS-Beautify)_ this is resolved by installing [vscode-prettydiff](https://marketplace.visualstudio.com/items?itemName=HexcodeTechnologies.vscode-prettydiff).
+* **Support for html has been added**, due to some odd behavior from other extenions I use which doesn't provide support for `liquid` file extension.
 
 
 ## Roadmap & Contributing
